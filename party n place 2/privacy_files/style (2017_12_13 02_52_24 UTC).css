@@ -1,0 +1,107 @@
+/******** Icons **********/
+.pnpicon {display: inline-block; width: 64px; height: 64px;  padding: 0px; background-image:url(../bundel/icon64.png?version=1.0);
+ background-repeat: no-repeat; margin-right: 6px; border: 0px solid #ccc;  }
+ .pnp-icon32 {display: inline-block; width: 32px; height: 32px;  padding: 0px; background-image:url(../bundel/icon64.png?version=1.0);
+ background-repeat: no-repeat; margin-right: 6px; border: 0px solid #ccc; background-size: 290px;}
+ .pnp-icon24 {display: inline-block; width: 24px; height: 24px;  padding: 0px; background-image:url(../bundel/icon64.png?version=1.0);
+ background-repeat: no-repeat; margin-right: 6px; border: 0px solid #ccc; background-size: 211px; }
+ .pnp-icon.pnp-deals { background-position: -127px -146px; }
+ .pnp-icon32.pnp-deals { background-position: -61px -70px; }
+ .pnp-icon24.pnp-deals { background-position: -43px -51px; }
+ .pnp-icon.pnp-vendor { background-position: -272px -284px; }
+ .pnp-icon32.pnp-vendor { background-position: -131px -136px; }
+ .pnp-icon24.pnp-vendor { background-position: -95px -99px; }
+ .pnp-icon.pnp-sign-up { background-position: -6px -356px; }
+ .pnp-icon32.pnp-sign-up { background-position: -2px -171px; }
+ .pnp-icon24.pnp-sign-up { width: 22px; background-position: -2px -124px; }
+ .pnp-icon.pnp-login { background-position: -277px -354px; width: 55px; }
+ .pnp-icon32.pnp-login { background-position: -134px -170px; width: 26px; }
+ .pnp-icon24.pnp-login { background-position: -97px -123px; width: 19px; }
+ 
+/********** Header *************/
+.page-header .title { color: #9d035c; text-transform: uppercase; /* font-family:verdana; */ }
+
+/********** common **********/
+a { color: #9b035a; }
+a:hover, a:focus { color: #b30468; text-decoration: none; }
+.btn .btn-default{ color: #9b035a; }
+.btn.btn-inverse { color: #efefef; }
+.btn.btn-inverse:focus, .btn.btn-inverse:hover { color: #fff; background-color: #b30468; }
+.title {  color: #9b035a; }
+
+/**** GRID Sytem ****/
+section { padding-top: 10px; }
+section.slider-wrapper { margin-top: -10px; }
+.bg-warning .form-control, .bg-primary .form-control , .bg-info .form-control ,
+.bg-danger .form-control, .bg-success .form-control, .filters .form-control { border: 1px solid transparent; }
+
+/**** Menus *********/
+.navbar { border-top-right-radius: 0px; border-top-left-radius: 0px; }
+.navbar-brand { padding: 0px; margin:0px; height: auto; }
+.navbar-brand img { height: 38px; margin-left: 10px; }
+.navbar-default { background-color: #fff; border-color: #e7e7e7; margin-bottom: 0px; }
+/* #9b035a */
+.navbar-nav > li > a { padding-top: 6px; padding-bottom: 5px; }
+.navbar-nav .pnp-icon , .navbar-nav .pnp-icon32, .navbar-nav .pnp-icon24 { float: left; }
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a 
+{ color: #999; background-color: #fff; line-height: 24px; font-size: 14px; }
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover 
+{  color: #9c014a; background-color: #FFF; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #9c014a; background-color: #FFF; }
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #9c014a; background-color: #FFF; }
+ 
+/******** sliders **********/
+.slider { margin-top:0px; }
+.slider .item, .slider .item img { height: 250px; }
+.slider-selection { background-color: #9b035a; }
+.carousel.testimonial-slider.well { box-shadow: 0px 0px 0px transparent;  margin-top; 20px;}
+.carousel.testimonial-slider .item { height: 180px; }
+.carousel.testimonial-slider .carousel-caption { height: 170px; text-shadow:none; right:10%; left: 10%; padding-bottom: 0px; bottom: 0px;}
+.carousel.testimonial-slider .carousel-caption .thumbnail { display:inline-block; min-width: 120px; } 
+
+/****** Content *********/
+.cat-box { min-height: 120px; height:auto; }
+.cat-box .cat-pic { width: 100%; height: 120px;  } 
+.cat-box .cat-title { width: 100%; vertical-align: middle;
+ text-align: center; color: #666; text-shadow: 0px 0px 0px #000; line-height: 25px; padding-top: 4px; font-size: 14px; 
+ background-color: rgb(234, 234, 234); display: block; font-weight: 400; }
+ .cat-box .cat-title:hover , .cat-box .cat-title:focus { background-color: rgb(250,250,250); cursor: default; color: #9b035a; }
+ 
+/********* Seach Page ************/
+.search .page-header { margin:0px; }
+.search-wrapper .filters { background-color: #b30468; color: #ffffff; padding-top: 10px; padding-bottom: 10px; margin-bottom: 10px; }
+.search-wrapper .filters .filter-box { margin-top: 15px; font-family: consola;  }
+.search-wrapper .filters .filter-box label { font-weight: 400; }
+.search-wrapper .filters .filter-box .form-control {  }
+.page .coupon { padding: 15px; background-color: rgb(255, 255, 255); }
+
+/*********** Widgets **************/
+.page-panel h1, .page-panel h2, .page-panel h3, .page-panel h4 { padding: 10px;  }
+.aboutus .col-sm-6 img { margin-left: auto; margin-right: auto; width: 200px; }
+.aboutus { font-size: 14px; }
+
+/*********** Search List ***********/
+.list-box { border: 1px solid #ededed; margin-bottom: 8px; }
+.list-box .rating { position: absolute; top: 20px; padding: 2px 13px; background-color: #ffe971; color: #b30468;
+    font-weight: bold; text-shadow: 0px 0px 1px #ccc; font-size: 14px; }
+.list-box .h3 { margin-top: 0px; }
+/*************** Banners ******************/
+.hbanner-wrapper .hbanner { border: 1px solid #ccc; padding:20px; font-size: 28px; min-height: 500px; background-color: #efefef; }
+
+/**************** Models *****************/
+.modal-header {  padding: 5px;  padding-left: 10px; padding-right: 10px; }
+.modal-footer { padding: 5px; }
+
+/**************** FORMS ********************/
+.input-sm { font-size: 13px; }
+ 
+ /******** Footer ************/
+.footer { background-color: #f4f3f3; border: 0px solid #ececec; border-top-width: 1px; color: #666666; padding: 0px;  }
+.footer .sitemap { padding: 10px; min-height: 120px; }
+.footer .sitemap a, .footer .sitemap b {  min-width:90px; }
+.footer .sitemap a { display:inline-block; color: #666666; margin-left: 10px; }
+.footer .sitemap a:hover, .footer .sitemap a:focus { color: #9b035a; }
+.footer .copyrights, .footer .footer-menu { background-color: #9b035a; line-height: 33px;}
+.footer .copyrights { color: #fff; line-height: 35px; }
